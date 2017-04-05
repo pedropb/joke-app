@@ -1,5 +1,6 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { Joke } from '../joke';
+import { CleanPipe } from '../clean.pipe';
 
 @Component({
   selector: 'joke',
